@@ -23,7 +23,7 @@ class ReportsController extends Controller
         $overall_sales = $this->io->post('overall_sales');
 
         // Load TCPDF library
-        require_once 'D:\Lavalust\jewelry\vendor\tecnickcom\tcpdf\tcpdf.php';
+        // require_once 'C:\laragon\www\jewelry\vendor\tecnickcom\tcpdf\tcpdf.php';
 
         // Create instance of TCPDF
         $pdf = new TCPDF();
